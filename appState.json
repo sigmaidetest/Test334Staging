@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "823c9bd2-2e9f-4ec0-868e-b89f35c97eba": {
+        "id": "823c9bd2-2e9f-4ec0-868e-b89f35c97eba",
+        "parent": null,
+        "name": "Test334Staging",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "d49518f0-a142-4561-bb60-9d260dc3f387",
+          "8abbd273-14c6-4710-8d80-1eb5bb11a567"
+        ],
+        "isRemovable": false,
+        "filePath": "Test334Staging"
+      },
+      "d49518f0-a142-4561-bb60-9d260dc3f387": {
+        "id": "d49518f0-a142-4561-bb60-9d260dc3f387",
+        "parent": "823c9bd2-2e9f-4ec0-868e-b89f35c97eba",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test334Staging/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "8abbd273-14c6-4710-8d80-1eb5bb11a567": {
+        "id": "8abbd273-14c6-4710-8d80-1eb5bb11a567",
+        "parent": "823c9bd2-2e9f-4ec0-868e-b89f35c97eba",
+        "name": "util.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "Test334Staging/util.js",
+        "code": "module.exports = {\n\n};"
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "823c9bd2-2e9f-4ec0-868e-b89f35c97eba",
+    "openFiles": [
+      "d49518f0-a142-4561-bb60-9d260dc3f387",
+      "8abbd273-14c6-4710-8d80-1eb5bb11a567"
+    ],
+    "currentFileId": "8abbd273-14c6-4710-8d80-1eb5bb11a567",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "Test334Staging",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1559295653416
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "Test334Staging",
+      "url": "https://github.com/sigmaidetest/Test334Staging"
+    }
+  }
+}
